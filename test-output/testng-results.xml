@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11164" started-at="2019-08-06T14:40:36Z" finished-at="2019-08-06T14:40:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11164" started-at="2019-08-06T14:40:36Z" finished-at="2019-08-06T14:40:47Z">
+      <class name="com.docker.com.dockerContainer.dockerTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.docker.com.dockerContainer.dockerTest@14acaea5]" name="test1" duration-ms="11139" started-at="2019-08-06T14:40:36Z" finished-at="2019-08-06T14:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.docker.com.dockerContainer.dockerTest -->
+      <class name="com.docker.com.dockerContainer.DockerTest1">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.docker.com.dockerContainer.DockerTest1@224edc67]" name="test2" duration-ms="5378" started-at="2019-08-06T14:40:36Z" finished-at="2019-08-06T14:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.docker.com.dockerContainer.DockerTest1 -->
+      <class name="com.docker.com.dockerContainer.DockerTest2">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.docker.com.dockerContainer.DockerTest2@4c70fda8]" name="test3" duration-ms="6121" started-at="2019-08-06T14:40:36Z" finished-at="2019-08-06T14:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.docker.com.dockerContainer.DockerTest2 -->
+      <class name="com.docker.com.dockerContainer.DockerTest3">
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.docker.com.dockerContainer.DockerTest3@26be92ad]" name="test4" duration-ms="7364" started-at="2019-08-06T14:40:36Z" finished-at="2019-08-06T14:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- com.docker.com.dockerContainer.DockerTest3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
