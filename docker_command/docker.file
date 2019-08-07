@@ -1,0 +1,81 @@
+docker version
+docker -v
+docker info
+docker --help
+docker login
+docker images 
+docker pull
+docker rmi
+docker ps
+docker run
+docker start
+docker stop
+docker stats
+docker system df
+docker system prune
+
+
+Agenda
+-----------------------------
+How to pull the image from Dockerhub
+How to create Container
+Create & run selenium tests remotely on Container
+
+
+Images:
+
+1)  Selenium Standalone with Chrome(selenium/standalone-chrome)
+
+2)  Selenium Standalone with Firefox(selenium/standalone-firefox)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+docker images
+docker ps
+docker-compose scale chrome=3
+docker-compose up
+docker-compose down
+
+Docker with Selenium Grid
+--------------------------------------------
+
+1) Create a file docker-compose.yaml with Required config
+(Ref: https://github.com/SeleniumHQ/docker-selenium)
+
+2) Run docker-compose.yaml
+    
+    docker-compose up
+    
+3) To check hub and nodes running state:
+    
+    http://localhost:4444/grid/console
+    
+    
+4) To increase the number of nodes 
+    
+    docker-compose scale chrome=3
+    
+5) To stop the grid and cleanup the created containers 
+
+      docker-compose down   
+
+
+
+
+
+
+
+
+
+
